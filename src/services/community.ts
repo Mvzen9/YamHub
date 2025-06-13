@@ -36,11 +36,7 @@ communityApi.interceptors.request.use(
 
 communityApi.interceptors.response.use(
   (response) => {
-    console.log('Response received:', {
-      status: response.status,
-      statusText: response.statusText,
-      url: response.config.url,
-    });
+
     return response;
   },
   (error) => {

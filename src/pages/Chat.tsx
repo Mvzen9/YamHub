@@ -13,7 +13,7 @@ import {
 import CloseIcon from '@mui/icons-material/Close';
 import ChatSidebar from '../components/chat/ChatSidebar';
 import ChatWindow from '../components/chat/ChatWindow';
-import type { Message, ChatUser } from '../../store/ChatContext';
+import type { Message, ChatUser } from '../store/ChatContext';
 import AnimatedBox from '../components/animation/AnimatedBox';
 
 const Chat: React.FC = () => {
